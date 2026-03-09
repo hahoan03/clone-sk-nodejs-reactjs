@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // Option 2: Passing parameters separately (sqlite)
-const sequelize = new Sequelize('hoidanit', 'root', null, {
+const sequelize = new Sequelize('health_checkup', 'root', null, {
     host: 'localhost',
     dialect: 'mysql',
     "logging": false
